@@ -23,7 +23,7 @@ postman test (in body)
 min returned 1
 max returned 4
 
-/sort should take an additional boolean parameter ascending in the request JSON, and return the correctly sorted array of numbers
+5. /sort should take an additional boolean parameter ascending in the request JSON, and return the correctly sorted array of numbers
 postman test (in body)
 {
     "array": [3, 1, 4, 1, 5, 9],
@@ -32,7 +32,7 @@ postman test (in body)
 
 it returned array with 1,1,3,4,5,9
 
-/target should take an additional number parameter target , and return whether there are two numbers in the array that sum to target
+6. /target should take an additional number parameter target , and return whether there are two numbers in the array that sum to target
 postman test (in body)
 {"array": [3, 1, 4, 1, 5, 9],
     "target": 9}
