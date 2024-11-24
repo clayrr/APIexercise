@@ -5,6 +5,7 @@ postman test (in body)
 {"array": [1,2,3]}
 
 it returned 6
+
 2. /product returns the product of the array
 postman test (in body) 
 {"array": [1,2,3]}
